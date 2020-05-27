@@ -1,0 +1,29 @@
+Initial App setup :- 
+Create React App
+Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
+
+It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 8.10 and npm >= 5.6 on your machine. To create a project, run:
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+If facing issue :- 
+Step 1: $ npm cache clean --force
+
+Step 2: Delete node_modules by $ rm -rf node_modules package-lock.json folder or delete it manually by going into the directory and right-click > delete / move to trash. Also, delete package-lock.json file too.
+
+Step 3: npm install
+
+To start again, $ npm start
+
+Initial react reference
+
+
+https://github.com/GavBaros/react-tinder-cards
+
+packages used :- 
+prop-types : - https://www.npmjs.com/package/prop-types
+react-spring/hooks - https://www.react-spring.io/docs/hooks/basics
+nuka-coursel :- https://www.npmjs.com/package/nuka-carousel
+react-spring :- https://blog.logrocket.com/animations-with-react-spring/
